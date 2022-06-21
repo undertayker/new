@@ -7,29 +7,37 @@ namespace Exercise_2
     {
         static void Main(string[] args)
         {
-            string hello = " Привет ";
-            string mentor = " ментор ";
-            string str = " меня зовут " + " Андрей";
-            int age = 23;
+            string name = " Андрей ";
+            int age =  23;
             double weight = 70;
-            int gold = 20000;
-            int time = 22;
-            string car = " bmw ";
-            string color = " синий ";
-            int year = 2016;
-            int speed = 240;
+            object citizen = "Беларусии";
+            long weather = -10;
+            bool isEmployed = false;
+            uint salary = 20000;
+            ulong population = 9255524;
+            byte regions = 7;
+            ushort sister = 1;
 
-            Console.WriteLine("привет");
-            Console.WriteLine("ментор");
-            Console.WriteLine(str);
-            Console.WriteLine($"Возраст: {age}");
+
+            Console.WriteLine($"имя: {name} ");
+            Console.WriteLine($"возрост: {age}");
             Console.WriteLine($"вес: {weight}");
-            Console.WriteLine($"золото: {gold}");
-            Console.WriteLine($"время: {time}");
-            Console.WriteLine($"машина: {car}");
-            Console.WriteLine($"год: {year}");
-            Console.WriteLine($"цвет: {color}");
-            Console.WriteLine($"скорость: {speed}");
+            Console.WriteLine($"гражданин: {citizen}");
+            Console.WriteLine($"погода: {weather}");
+            Console.WriteLine($"на счет погоды {isEmployed}");
+            Console.WriteLine($"зарплата: {salary}");
+            Console.WriteLine($"население: {population}");
+            Console.WriteLine($"районов: {regions}");
+            Console.WriteLine($"сестра: {sister}");
+
+
+
+
+
+
+
+
+
 
 
 
