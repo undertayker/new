@@ -16,43 +16,6 @@ namespace Exercise_5
             Console.WriteLine($"Заполняных рядов : {falledRow}");
             Console.WriteLine($"Сверх меры : {allPictures}");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 
