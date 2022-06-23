@@ -8,16 +8,13 @@ namespace Exercise_7
         {
             int timeOfReceipt = 10;
             Console.WriteLine("Введите количество людей в очереди : ");
-            int peoply = int.Parse(Console.ReadLine());
-            int a = timeOfReceipt;
-            int b = peoply;
-            int time = a * b;
-            int minutes = 60;
-            int hour;
+            int people = int.Parse(Console.ReadLine());
+            int timeInMinutes = 60;
+            int allMinutes = timeOfReceipt * people;
+            int hour = allMinutes / timeInMinutes;
+            int minutes = allMinutes % timeInMinutes;
 
-            Console.WriteLine("Время ожидания");
-            Console.WriteLine("Осталось часов\t:{0}", time / minutes );
-            Console.WriteLine("Осталось минут\t:{0}", time % minutes );
+            Console.WriteLine("Вы должны отстоять в очереди {0} часов и {1} минут ", hour, minutes);
         }
     }
 }
