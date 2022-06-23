@@ -15,13 +15,6 @@ namespace Exercise_7
             int waitInMinutes = allMinutes % minutesInHour;
 
             Console.WriteLine("Вы должны отстоять в очереди {0} часa и {1} минут ", waitInHour, waitInMinutes);
-
-
-
-
-
-
-
         }
     }
 }
